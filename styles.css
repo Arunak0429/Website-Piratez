@@ -206,14 +206,8 @@ h3 {
 
 .logo {
     height: 60px;
+    padding: 35px;
     width: auto;
-    transition: transform var(--transition-normal);
-}
-
-.team_crew_pic {
-    height: 225px;
-    width: 225px;
-    padding-top: 12;
     transition: transform var(--transition-normal);
 }
 
@@ -1183,6 +1177,13 @@ h3 {
 
 .team-card:hover::before {
     opacity: 1;
+}
+
+.team_crew_pic {
+    height: 150px;
+    width: 150px;
+    padding: 12;
+    transition: transform var(--transition-normal);
 }
 
 .crew-avatar {
