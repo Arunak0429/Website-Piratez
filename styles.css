@@ -1,5 +1,5 @@
 /* ========================================
-   TEAM PIRATEZ RACING - CSS FRAMEWORK
+   TEAM POLARIS RACING (TPR) - CSS FRAMEWORK
    Theme: Racing, Speed, Innovation
    Colors: Red (#E60012), Black, White, Gray
    ======================================== */
@@ -70,6 +70,10 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 80px;
 }
 
 body {
@@ -1209,7 +1213,8 @@ h3 {
     z-index: 1;
 }
 
-.team-role {
+.team-role,
+.crew-role {
     font-size: 1rem;
     color: var(--orange-primary);
     text-transform: uppercase;
