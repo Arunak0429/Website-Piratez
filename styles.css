@@ -206,7 +206,7 @@ h3 {
 
 .logo {
     height: 60px;
-    padding: 35px;
+    padding-right: 35px;
     width: auto;
     transition: transform var(--transition-normal);
 }
